@@ -27,7 +27,7 @@ Before you begin, ensure you have the following installed:
 
 ### 1. Clone the repository
 ```bash
-git clone [[https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)](https://github.com/abkff/Multi-app-Streamlit-Docker-boilerplate.git)
+git clone https://github.com/abkff/Multi-app-Streamlit-Docker-boilerplate.git
 cd your-repo-name
 ```
 ### 2. Install Docker Compose
