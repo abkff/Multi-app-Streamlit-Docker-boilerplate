@@ -30,16 +30,24 @@ Before you begin, ensure you have the following installed:
 git clone https://github.com/abkff/Multi-app-Streamlit-Docker-boilerplate.git
 cd your-repo-name
 ```
-### 2. Install Docker Compose
+
+### 2. Go to directory
+```bash
+cd Multi-app-Streamlit-Docker-boilerplate
+```
+
+
+### 3. Install Docker Compose
 ```bash
 docker-compose up --build
 ```
 
-### 3. Access the applications
+### 4. Access the applications
 App 1	http://localhost:80
 App 2	http://localhost:8080
 
-### 4. Stopping the project
+
+### 5. Stopping the project
 To stop the containers and free up the ports type ctrl+C in the terminal or run
 ```bash
 docker-compose down
