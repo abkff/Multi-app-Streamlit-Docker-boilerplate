@@ -1,0 +1,20 @@
+services:
+  # --- APPLICATION 1 (Port 80) ---
+  app_1:
+    build: ./app1
+    container_name: test1
+    volumes:
+      - ./app1:/app
+    ports:
+      - "80:8501"  # We use port 80 to avoid conflict
+    restart: always
+
+  # --- APPLICATION 2 (Port 8080) ---
+  app_2:
+    build: ./app2
+    container_name: test2
+    volumes:
+      - ./app2:/app
+    ports:
+      - "8080:8501" # We use port 8080 to avoid conflict
+    restart: always

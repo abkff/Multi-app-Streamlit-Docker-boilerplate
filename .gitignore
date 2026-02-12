@@ -1,0 +1,27 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+*.log
+
+# --- Docker ---
+.docker/
+# This ignores the data but not the config
+# If you eventually add databases:
+# /data/
+
+# --- IDEs & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Streamlit ---
+.streamlit/config.toml
+# Keep this if you want to force custom themes, 
+.streamlit/credentials.toml
