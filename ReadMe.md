@@ -45,19 +45,21 @@ To stop the containers and free up the ports type ctrl+C in the terminal or run
 docker-compose down
 ```
 
-## Project structure
+## 📂 Project Structure
+
+```text
 .
 ├── app1/
-│   ├── Dockerfile       # Build instructions for App 1
-│   ├── main.py          # Streamlit code for App 1
-│   └── requirements.txt  # Dependencies for App 1
+│   ├── Dockerfile         # Build instructions for App 1
+│   ├── main.py            # Streamlit code for App 1
+│   └── requirements.txt   # Dependencies for App 1
 ├── app2/
-│   ├── Dockerfile       # Build instructions for App 2
-│   ├── main.py          # Streamlit code for App 2
-│   └── requirements.txt  # Dependencies for App 2
-├── docker-compose.yml    # Main orchestrator
-└── README.md             # You are here
-
+│   ├── Dockerfile         # Build instructions for App 2
+│   ├── main.py            # Streamlit code for App 2
+│   └── requirements.txt   # Dependencies for App 2
+├── docker-compose.yml     # Main orchestrator
+└── README.md              # You are here
+```
 ## Configuration details
 The docker-compose.yml file is configured to build from the local contexts:
 
