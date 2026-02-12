@@ -28,7 +28,6 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/abkff/Multi-app-Streamlit-Docker-boilerplate.git
-cd your-repo-name
 ```
 
 ### 2. Go to directory
